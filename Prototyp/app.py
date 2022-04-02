@@ -16,7 +16,7 @@ def main():
     test= ffmpeg.output(audio.audio,"./data/audio/test.mp3")
     ffmpeg.run(test)
     #ffmpeg.concat(audio,vid,v=1,a=1).output("./data/test").run()
-    #ffmpeg.concat(vid,audio,v=1,a=1).output("test.mp4").run(overwrite_output=True)
+    #ffmpeg.concat(vid,audio,v=1,a=1).output("./data/output/test.mp4").run()
 
 if __name__ == "__main__":
     main()
