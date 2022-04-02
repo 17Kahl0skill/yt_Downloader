@@ -130,5 +130,5 @@ dmypy.json
 
 #PROJECT IGNORE
 #Data soll leer sein
-data/
+data/**
 !data/**/.gitkeep
