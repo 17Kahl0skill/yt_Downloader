@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 #PROJECT IGNORE
-#Data
+#Data soll leer sein
 data/
+!data/**/.gitkeep
