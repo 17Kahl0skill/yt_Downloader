@@ -128,7 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#PROJECT IGNORE
-#Data soll leer sein
-data/**
+# PROJECT IGNORE
+# VSCode einstellungen
+.vscode/
+# Data soll leer hochgeladen werden
+data/
 !data/**/.gitkeep
