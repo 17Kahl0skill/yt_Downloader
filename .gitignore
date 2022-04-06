@@ -133,4 +133,3 @@ dmypy.json
 .vscode/
 # Data soll leer hochgeladen werden
 data/
-!data/**/.gitkeep
