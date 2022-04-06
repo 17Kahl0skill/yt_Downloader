@@ -132,4 +132,3 @@ dmypy.json
 # VSCode einstellungen
 .vscode/
 # Data soll leer hochgeladen werden
-data/
