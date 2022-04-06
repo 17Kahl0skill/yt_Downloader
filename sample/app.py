@@ -1,5 +1,8 @@
+import logic.Downloader as Download
+
 def main():
-    print("hello world")
+    Download.download_mp3("https://www.youtube.com/watch?v=2BCHVVj9AH4")
+
     return
 
 
