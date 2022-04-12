@@ -19,12 +19,16 @@ class Downloader():
 
     def download_playlist(self, url_link, is_mp3=True):
         pl = pytube.Playlist(url=url_link)
+        __temp = self.__dir
+        self.__dir = "./"+pl.title+"/"
         for vid in pl:
             print(vid)
             if is_mp3 is True:
                 self.download_mp3(vid)
             else:
                 self.download_highest_quality(vid)
+        self.delete_temp_data()
+        self.__dir = __temp
 
     def download_highest_quality(self, url_link):
         yt = pytube.YouTube(url_link, use_oauth=False)
